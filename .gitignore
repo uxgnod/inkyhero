@@ -1,0 +1,35 @@
+# Bundler
+/.bundle
+
+# Environment files
+/.env*
+
+# Logs and temporary files
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# PID files
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Local Active Storage files
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+
+# Compiled assets
+/public/assets
+
+# Rails credential decryption keys
+/config/*.key
+
+# Maintainer-local project context
+/.local/
+
+# macOS
+.DS_Store
